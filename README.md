@@ -1,12 +1,13 @@
 # littlehelperRs
 
-The goal of littlehelperRs is to ...
+The goal of littlehelperRs is to organize the functions I keep using on a daily basis.
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Little helper function that creates a data.frame into numeric matrix using the first column as rownames.
 
 ``` r
-## basic example code
+mat <- df2matrix(df)
+head(mat)
 ```
 
